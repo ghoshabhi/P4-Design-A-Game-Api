@@ -1,0 +1,17 @@
+-->I have chosen to implement the Tic Tac Toe game for Project-4 of the FSND program.
+
+-->I have implemented the game keeping in mind the rubric of Project 4. The design and implementation of the API is quite simple and easy to understand. All the methods have been well documented. 
+
+-->My one of the sources of implementing this game was from this source : https://inventwithpython.com/chapter10.html. Here, the author has shown a program to implement Tic Tac Toe with Artificial Intelligence. But I was very impressed in a way how the computer plays according to the given algorithm.
+
+-->Although I haven't implemented the AI portion in this API, but I have greatly learnt from the code given in the link.
+
+-->P.S. : I had tried to implement the code to handle in case of a draw, but it was getting complex and so for the time being I have decided to delete the game if the game is a draw.
+
+-->At the time of creating a user, the user has to input a username which is unique - necessary checks are implented for the same.
+
+-->While making a move on the board - first it is checked if the cell is empty or not. If it is already filled necessary error messages are shown.
+
+-->Here, the board is an array of 9 elements from 0 to 8 where each array position corresponds to the position on the board. It was easier this was to store the board in form of an array and also while checking for winning logic it was pretty much easy to check that too.
+
+-->Cron jobs are used to notify whose move is it. In every 12 hours  the user is emailed the list of his/her active game along with the GAME Keys.
